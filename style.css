@@ -1,0 +1,83 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+/***** FIRST SECTION *****/
+
+/* Dynamic Nav Background*/
+.navbar-fixed-top { 
+  background-color: rgba(245, 245, 245, 1);
+  transition: background-color 1s ease 0s;
+}
+.navbar-fixed-top.opaque { 
+  background-color: rgba(255,255,255,0);
+  transition: background-color 1s ease 0s;
+}
+
+.top-bg {
+  height: 100vh;
+  background: url(img/topbg.png) no-repeat center center fixed;
+}
+
+.section1 {
+  height: 100vh;
+}
+
+.section1-content {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section1-content-inner {
+  margin-top: -4em;
+}
+
+.typewriter {
+  font-weight: 200 !important;
+  font-size: 4em;
+}
+
+@media (max-width: 767.98px) { 
+  .typewriter {
+    font-size: 2.5em;
+  }
+}
+
+/***** SECOND SECTION *****/
+
+.section2 {
+  min-height: 60vh;
+}
+
+.section2-content {
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container {
+  height: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/***** THIRD SECTION *****/
+
+.section3 {
+  height: 30vh;
+  background: url(img/rompic.png) no-repeat center center fixed;
+  background-size: cover;
+}
